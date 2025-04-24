@@ -1,0 +1,9 @@
+nav{
+    color: white;
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    justify-content: space-between;
+}
