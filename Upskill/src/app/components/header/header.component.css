@@ -1,4 +1,4 @@
-nav{
+header{
     color: white;
     background-color: #333;
     align-items: center;
@@ -6,4 +6,25 @@ nav{
     padding-inline: 16px;
     padding-block: 8px;
     justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav span:hover{
+    cursor: pointer;
+    color: indigo;
+}
+
+ul{
+    list-style: none
+}
+
+li:hover{
+    cursor: pointer;
+    color: indigo;
 }
